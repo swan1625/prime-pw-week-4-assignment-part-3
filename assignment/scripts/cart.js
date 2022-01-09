@@ -15,12 +15,21 @@ additem('apple')
 console.log('Adding apples (expect true)', basket.includes("apple"));
 console.log(`Basket is now: ${basket}`);
 
-//- Create a function called `listItems`. It should:
-//  - loop over the items in the `basket` array
-//- console.log each individual item on a new line
+
+
 function listItems(){
   for (i = 0; i < basket.length; i++);
 console.log(basket[0]);
 console.log(basket[1]);
 }
 listItems();
+
+
+
+
+function empty(){
+  basket.splice(0,basket.length)
+}
+
+empty();
+console.log(`Basket is now: ${basket}`);
