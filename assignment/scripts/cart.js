@@ -30,6 +30,5 @@ listItems();
 function empty(){
   basket.splice(0,basket.length)
 }
-
 empty();
 console.log(`Basket is now: ${basket}`);
